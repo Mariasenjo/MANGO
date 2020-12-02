@@ -1,0 +1,6 @@
+﻿CREATE PROCEDURE BuscarProductos
+@REFERENCIA varchar (20)
+AS
+BEGIN
+SELECT * FROM Productos WHERE Id_referencia = @REFERENCIA
+END

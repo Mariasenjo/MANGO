@@ -1,0 +1,10 @@
+﻿
+CREATE PROCEDURE DeleteProductos
+
+@REFERENCIA varchar(20)
+
+AS
+BEGIN
+DELETE FROM Productos 
+WHERE Id_referencia = @REFERENCIA
+END
